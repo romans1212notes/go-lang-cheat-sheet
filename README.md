@@ -2,6 +2,7 @@
 
 # Index
 * [Basic Syntax](#basic-syntax)
+  * [Hello World](#hello-world), [Build](#build)
   * variables/types: 
     * basic: [Declarations](#declarations), [Built-in Types](#built-in-types), [Type Conversions](#type-conversions), [Arrays](#arrays), [Slices](#slices), [Operations on Arrays and Slices](#operations-on-arrays-and-slices)
     * advanced: [Maps](#maps), [Structs](#structs), [Pointers](#pointers), [Interfaces](#interfaces)
@@ -18,8 +19,9 @@ Most example code taken from [A Tour of Go](http://tour.golang.org/) and a8m/go-
 
 # Basic Syntax
 
-## Hello World: hello.go
+## Hello World
 ```go
+//  hello.go
 package main
 import "fmt"
 func main() {
@@ -27,6 +29,15 @@ func main() {
 }
 ```
 `$ go run hello.go`
+
+## Build
+To build and install all dependencies of a Golang project or golang projects recursively with the go get command, change directory into the project and simply run:
+```
+go get ./...
+go build
+go install
+go run <>
+```
 
 ## Operators
 ### Arithmetic
