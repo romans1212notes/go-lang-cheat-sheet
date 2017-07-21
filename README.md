@@ -19,7 +19,7 @@ Most example code taken from [A Tour of Go](http://tour.golang.org/) and a8m/go-
 # Basic Syntax
 
 ## Hello World: hello.go
-```
+```go
 package main
 import "fmt"
 func main() {
