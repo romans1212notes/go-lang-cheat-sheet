@@ -10,12 +10,8 @@
   * [Functions](#functions): [Functions as values and closures](#functions-as-values-and-closures), [Variadic Functions](#variadic-functions)
   * [Control structures](#control-structures): [If](#if), [Loops](#loops), [Switch](#switch)
   * [Packages](#packages)
-14. [Embedding](#embedding)
-15. [Errors](#errors)
-16. [Concurrency](#concurrency): [Goroutines](#goroutines), [Channels](#channels), [Channel Axioms](#channel-axioms)
-17. [Printing](#printing)
-18. [Snippets](#snippets)
-  * [Http-Server](#http-server)
+* Advanced: [Embedding](#embedding), [Errors](#errors), [Goroutines](#goroutines), [Channels](#channels), [Channel Axioms](#channel-axioms)
+18. [Snippets](#snippets): [Printing](#printing), [Http-Server](#http-server)
 
 ## Credits
 
