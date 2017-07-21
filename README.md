@@ -3,15 +3,14 @@
 # Index
 * [Basic Syntax](#basic-syntax)
   * variables/types: 
-    * basic: [Declarations](#declarations), [Built-in Types](#built-in-types), [Type Conversions](#type-conversions)
-    * [Arrays, Slices, Ranges](#arrays-slices-ranges): [Arrays](#arrays), [Slices](#slices), [Operations on Arrays and Slices](#operations-on-arrays-and-slices)
+    * basic: [Declarations](#declarations), [Built-in Types](#built-in-types), [Type Conversions](#type-conversions), [Arrays](#arrays), [Slices](#slices), [Operations on Arrays and Slices](#operations-on-arrays-and-slices)
     * advanced: [Maps](#maps), [Structs](#structs), [Pointers](#pointers), [Interfaces](#interfaces)
   * [Operators](#operators): [Arithmetic](#arithmetic), [Comparison](#comparison), [Logical](#logical), [Other](#other)
   * [Functions](#functions): [Functions as values and closures](#functions-as-values-and-closures), [Variadic Functions](#variadic-functions)
   * [Control structures](#control-structures): [If](#if), [Loops](#loops), [Switch](#switch)
   * [Packages](#packages)
 * Advanced: [Embedding](#embedding), [Errors](#errors), [Goroutines](#goroutines), [Channels](#channels), [Channel Axioms](#channel-axioms)
-18. [Snippets](#snippets): [Printing](#printing), [Http-Server](#http-server)
+* [Snippets](#snippets): [Printing](#printing), [Http-Server](#http-server)
 
 ## Credits
 
