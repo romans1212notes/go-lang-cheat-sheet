@@ -1,4 +1,4 @@
-# Go Cheat Sheet
+# Go Cheat Sheet - more concise version :-)
 
 # Index
 * [Basic Syntax](#basic-syntax)
@@ -18,13 +18,10 @@ Most example code taken from [A Tour of Go](http://tour.golang.org/) and a8m/go-
 
 # Basic Syntax
 
-## Hello World
-File `hello.go`:
-```go
+## Hello World: hello.go
+```
 package main
-
 import "fmt"
-
 func main() {
     fmt.Println("Hello Go")
 }
