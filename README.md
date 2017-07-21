@@ -280,6 +280,7 @@ func main() {
 ```
 
 ### Loops
+Simple loop
 ```go
     // There's only `for`, no `while`, no `until`
     for i := 1; i < 10; i++ {
@@ -290,6 +291,12 @@ func main() {
     }
     for { // you can omit the condition ~ while (true)
     }
+```
+Loop over an array/a slice, and more at [Operations on Arrays and Slices](#operations-on-arrays-and-slices)
+```go
+for i, e := range a {
+    // i is the index, e the element
+}
 ```
 
 ### Switch
